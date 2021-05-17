@@ -19,11 +19,7 @@ namespace EnumerableEducation
         //В автомобиле имеется радиоприемник,
         private Radio theMusicBox = new Radio();
         // Конструкторы,
-        public Car() 
-        {
-            PetName = "None";
-            CurrentSpeed = 0;
-        }
+        public Car() { }
         public Car(string name, int speed)
         {
             CurrentSpeed = speed;
